@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "111662731908",
+    "firebase_url": "https://smartcanteen-342e8-default-rtdb.firebaseio.com",
+    "project_id": "smartcanteen-342e8",
+    "storage_bucket": "smartcanteen-342e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:111662731908:android:d97629d4123ba4f95368d1",
+        "android_client_info": {
+          "package_name": "com.student.canteen"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBq6DFhdguq4fhkeq4DTSy5btpYhFVAZbE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

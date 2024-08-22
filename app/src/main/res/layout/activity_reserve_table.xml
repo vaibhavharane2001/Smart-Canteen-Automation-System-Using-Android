@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgm">
+
+    <TextView
+        android:id="@+id/textViewHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:text="Table Reservation"
+        android:textSize="24sp"
+        android:textColor="@color/yellow"
+        android:background="@color/appBlack"
+        android:padding="15sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonPickDateTime"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="308dp"
+        android:backgroundTint="@color/orange"
+        android:text="Select Date and Time"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextGuests"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonPickDateTime"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:hint="Number of Guests"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/white"
+        />
+
+    <Button
+        android:id="@+id/buttonReserve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextGuests"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="105dp"
+        android:backgroundTint="@color/green"
+        android:text="Reserve" />
+
+    <Button
+        android:id="@+id/buttonCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextGuests"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="@color/red"
+        android:text="Cancel"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/textViewNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonReserve"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Note: 5 Rs per hour for per person"
+        android:textColor="#FF0000"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+</RelativeLayout>
